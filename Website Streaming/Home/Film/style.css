@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+.header img {
+    height: 40px;
+}
+.header .search-bar {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+.header .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.header .user-profile {
+    display: flex;
+    align-items: center;
+}
+.header .user-profile img {
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.main-content {
+    margin-top: 20px;
+}
+.main-content .banner {
+    position: relative;
+}
+.main-content .banner img {
+    width: 100%;
+    border-radius: 10px;
+}
+.main-content .banner .banner-info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.main-content .banner .banner-info h1 {
+    font-size: 36px;
+    margin: 0;
+}
+.main-content .banner .banner-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.main-content .banner .banner-info .buttons {
+    margin-top: 10px;
+}
+.main-content .banner .banner-info .buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.main-content .banner .banner-info .buttons .play-button {
+    background-color: #1db954;
+    color: #ffffff;
+}
+.main-content .banner .banner-info .buttons .more-info-button {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+.main-content .details {
+    margin-top: 20px;
+}
+.main-content .details .tabs {
+    display: flex;
+    border-bottom: 1px solid #333;
+}
+.main-content .details .tabs .tab {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.main-content .details .tabs .tab.active {
+    border-bottom: 2px solid #1db954;
+}
+.main-content .details .info {
+    margin-top: 20px;
+}
+.main-content .details .info .cast {
+    display: flex;
+    align-items: center;
+}
+.main-content .details .info .cast img {
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.main-content .details .info .cast .name {
+    margin-right: 20px;
+}
+.main-content .episodes {
+    margin-top: 20px;
+}
+.main-content .episodes .episode {
+    display: flex;
+    margin-bottom: 20px;
+}
+.main-content .episodes .episode img {
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.main-content .episodes .episode .info {
+    flex-grow: 1;
+}
+.main-content .episodes .episode .info h3 {
+    margin: 0;
+}
+.main-content .episodes .episode .info p {
+    margin: 10px 0;
+}
+.main-content .similar-movies {
+    margin-top: 20px;
+}
+.main-content .similar-movies .movie {
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+}
+.main-content .similar-movies .movie img {
+    width: 100%;
+    border-radius: 10px;
+}
+.main-content .similar-movies .movie .info {
+    text-align: center;
+    margin-top: 10px;
+}
+.main-content .similar-movies .movie .info h4 {
+    margin: 0;
+}
+.main-content .similar-movies .movie .info p {
+    margin: 5px 0;
+}
+.footer {
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: #1c1c1c;
+    text-align: center;
+}
+.footer p {
+    margin: 0;
+}
+.footer .social-icons {
+    margin-top: 10px;
+}
+.footer .social-icons i {
+    margin: 0 10px;
+    cursor: pointer;
+}
